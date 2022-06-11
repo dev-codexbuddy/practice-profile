@@ -45,13 +45,34 @@ span{
 h2{
     font-size: 40px;
 }
-div{
-    display: block;
-}
 .second-half img{
     width: 100%;
 }
 .exp-area div{
     box-shadow: 5px 7px 40px gray;
     height: 80%;
+}
+#fd-color{
+    border-left: 7px solid;
+    border-radius: 5px;
+    border-image: linear-gradient(45deg,lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-color{
+    border-left: 7px solid;
+    border-radius: 5px;
+    border-image: linear-gradient(45deg,green, purple);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
+p{
+    color: dimgray;
+}
+p{
+    display: block;
+}
+section{
+    display: block;
 }
