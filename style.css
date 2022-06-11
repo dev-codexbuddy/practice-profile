@@ -1,0 +1,57 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 50px;
+}
+.all-half{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+}
+.all-half p{
+    color: dimgray;
+}
+span{
+    color: orangered;
+}
+.btn{
+    width: 20px;
+    color: white;
+    background-image: linear-gradient(45deg,salmon, tomato);
+    font-weight: 700;
+    border-radius: 3px;
+    padding: 10px 40px;
+    margin-top: 5px;
+    text-decoration: none;
+}
+.btn:hover{
+    color: azure;
+    background-image: linear-gradient(45deg, green, purple);
+    cursor: pointer;
+    transition: 1s;
+}
+.second-half{
+    width: 46%;
+    float: right;
+    margin-left: 5%;
+    padding: 2%;
+}
+.all-half img{
+    width: 100%;
+}
+h2{
+    font-size: 40px;
+}
+div{
+    display: block;
+}
+.second-half img{
+    width: 100%;
+}
+.exp-area div{
+    box-shadow: 5px 7px 40px gray;
+    height: 80%;
+}
